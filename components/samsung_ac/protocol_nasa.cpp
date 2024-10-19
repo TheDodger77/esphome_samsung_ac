@@ -1058,7 +1058,9 @@ namespace esphome
             case 0x8238:
             case 0x8239:
             case 0x823b:
-            case 0x823d:
+            case 0x823d: //Outdoor_Fan1_RPM
+                LOG_MESSAGE(VAR_out_Outdoor_Fan1_RPM, message.value, source, dest);
+                break;            
             case 0x42e3:
             case 0x42e5:
             case 0x440e:
