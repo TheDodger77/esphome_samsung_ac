@@ -89,6 +89,7 @@ namespace esphome
             VAR_in_temp_eva_in_f = 0x4205,
             VAR_in_temp_eva_out_f = 0x4206,
             VAR_out_error_code = 0x8235,
+            VAR_out_Outdoor_Fan1_RPM = 0x823D
         };
 
         struct Address
